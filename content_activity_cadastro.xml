@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity_cadastro"
+    tools:showIn="@layout/activity_tela_cadastro">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Escolha uma opção abaixo:" />
+
+            <RadioButton
+                android:id="@+id/rbecadastroestudante"
+                android:layout_width="305dp"
+                android:layout_height="20dp"
+                android:text="Estudante" />
+
+            <RadioButton
+                android:id="@+id/rbecadastroprofissional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profissional" />
+
+
+            <EditText
+                android:id="@+id/edtnomecadastro"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:hint="Nome:" />
+
+
+            <EditText
+                android:id="@+id/edtmatriculacadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CPF:" />
+
+            <EditText
+                android:id="@+id/edtemailcadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-mail:" />
+
+            <EditText
+                android:id="@+id/edtsenhacadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Digite uma senha:" />
+
+            <EditText
+                android:id="@+id/edtconfirmarsenhacadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirmar senha:" />
+
+
+            <Button
+                android:id="@+id/btnenviarcadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="enviar" />
+
+
+
+</LinearLayout>
